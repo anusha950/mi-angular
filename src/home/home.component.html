@@ -1,0 +1,88 @@
+<html>
+    <body class="body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 well">
+                    <img src="assets/Credit Report/Icon/back.png" class="back-arrow">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="title">Credit Report</p>
+                        </div>
+                        <div class="col-md-6 section-right">
+                            <p class="right">Powered by <img src="assets/Credit Report/Icon/logo.png" class="logo"></p>
+                        </div>
+                    </div><!--row ends here-->
+                    <div class="row bar">  
+                        <fusioncharts
+                            width="330"
+                            height="175"
+                            type="AngularGauge"
+                            [dataSource]="dataSource">
+                        </fusioncharts>
+                    </div>
+
+                    <div class="row">
+                        <p class="text">Last updated 20-8-2019</p>
+                        <p class="text1">You have a excellent credit scroe and 90% chance of getting a loan
+                            <img src="assets/Credit Report/Icon/？.png" class="qnmark">
+                            <!-- <img src="Credit Report/Icon/？.png" class="qn mark"> -->
+                        </p>
+                    </div>
+                    <hr class="line1">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="assets/Credit Report/Icon/Score Factors.png" class="score">
+                        </div>
+                        <div class="col-md-8">
+                            <p class="ftr">Score Factors</p>
+                            <p class="ftr1">How is my Score calculated?</p>
+                        </div>
+                        <div class="col-md-2 arrow-nxt">
+                            <img src="assets/Credit Report/Icon/next.png" class="next">
+                        </div>
+                    </div><!--row end here-->
+                    <hr class=line2>
+
+                    <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/Credit Report/Icon/Accounts Information.png" class="acnt">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="info">Accounts Information</p>
+                                <p class="info1">All my accounts</p>
+                            </div>
+                            <div class="col-md-2 arrow-nxt">
+                                <img src="assets/Credit Report/Icon/next.png" class="next">
+                            </div>
+                        </div><!--row end here-->
+                        <hr class="line2">
+                    <div class="row">
+                            <div class="col-md-2">
+                                <img src="assets/Credit Report/Icon/Borrowing History .png" class="Borrow">
+                            </div>
+                            <div class="col-md-8">
+                                <p class="his">Borrowing History</p>
+                                <p class="his1">Check my Credit history</p>
+                            </div>
+                            <div class="col-md-2 arrow-nxt">
+                                <img src="assets/Credit Report/Icon/next.png" class="next">
+                            </div>
+                        </div><!--row end here-->
+                        <hr class="line2">
+
+                        <div class="row" style="margin-top: 60px">
+                            <p class="msg">You may check the detailed PDF Credit Report in your email</p>
+                            <p class="msg">If you need help, please reach</p>
+                            <p class="msg">consumer.support@experian.com</p>
+                        </div>
+
+                        <div class="row">
+                            <button type="button" class="btn btn-lg btn-success btn-block">Get Loan</button> 
+                        </div>
+                </div><!--6 closes here-->
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </body>
+</html>
